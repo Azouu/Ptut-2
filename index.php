@@ -134,8 +134,33 @@
 	</div>
 
 	<!-- ------------- ----->
-	<!-- Fin HeroImg ----->
+	<!-- Fin HeroImg ------->
 	<!-- ------------- ----->
+
+	<!-- ------------- ------------>
+	<!-- Début feeds ------->
+	<!-- -------------------- ----->
+
+	<div class="newsfeed grid-6 has gutter">
+
+			
+			<div class="latest-news col-4">
+				<p class="latest-news-title txtcenter"><i class="fa fa-newspaper-o"></i>Dernières actualités</p>
+
+				<a href="#" class="hero-img-button newsfeed-btn"><span>Toutes les actualités</span></a>
+			</div>
+
+			<div class="twitter col-2 right">
+				<article class="news_twitter">
+
+					<a class="twitter-timeline" data-lang="fr" data-width="302" data-height = "600"
+						href ="https://twitter.com/ups_amitat?lang=fr">Twitter feed</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</article>
+			</div>
+
+	</div>	
 
 
 <script>
