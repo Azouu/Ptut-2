@@ -57,7 +57,7 @@
       <li class="menu-element--dropbtn">
         <a href="index.php">Accueil</a>
         <div class="dropdown-content">
-          <a href="Actualites.html">Actualités</a>
+          <a href="actualité.php">Actualités</a>
           <a href="Promotion.html">Promotion actuelle</a>
         </div>
       </li>
