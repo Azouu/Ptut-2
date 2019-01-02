@@ -1,23 +1,20 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title>Actualités</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel="stylesheet" type="text/javascript" href="script.js">
+</head>
+<body>
 
-	<head>
-		<title>Actualités</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	 
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" type="text/javascript" href="script.js">
-	</head>
-
-	
-	<body>
-	
-	
-		<?php
+	<?php
 		require('menu_footer.php');
-		require('connexion.php');
+		require('connexion.php'); // Fichier contenant la connexion à la base de données 
 		
 		//Nombre de news à afficher au total
 		
@@ -49,7 +46,7 @@
 			$nb_news = $req_nb_news-> fetch()['nb_news'];
 			
 			//pages courantes si un entier et si inférieur nombre de page
-			//Sécurité si on rentre n'import quoi dans l'url
+			//Sécurité si on rentre n'importe quoi dans l'url
 			if(isset($_GET['page']) && $_GET['page'] > 0 && $_GET['page'] <= $nb_news){
 				$pag_cour = $_GET['page'];
 			}else{
@@ -57,13 +54,13 @@
 			}
 			
 			
-			//affiche toute les news selon la page et le nombre de news
+			//affichage de toutes les news selon la page et le nombre de news
 			$req_all_news = $link->prepare('SELECT * from news LIMIT '.(($pag_cour-1)*$nb_news_affiche).', '.$nb_news_affiche);
 			$req_all_news->execute();
 			?>
 		
 			<div class="all_news">
-			<h1>Toutes les actualités</h1>
+			<h1>Toutes les actualités : </h1>
 			<?php
 				while($data = $req_all_news->fetch()){
 					?>
@@ -92,9 +89,13 @@
 			<?php
 		}
 		?>
-		
-		
-	
-	</body>
 
+	
+		<!-- ------------- -->
+		<!-- FIN Slideshow -->
+		<!-- ------------- -->
+
+	</div>
+
+</body>
 </html>
