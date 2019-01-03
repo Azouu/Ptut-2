@@ -500,21 +500,39 @@ footer .column {
 	height: auto;
 	top:1em;
 	margin: auto;
+	margin-left: 1em;
 }
 
 .all_news >h1{
 	margin-left: 1em;
+	border-bottom: 1px solid #e1e4e8;
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
 }
+
+.all_news > a{
+	margin: 0.5em;
+}
+
 
 .news{
 	margin-left: 3em;
 	width:95%;
 	word-wrap:break-word;
+	border-bottom: 2px solid #e1e4e8;
+	margin-bottom : 1em;
+	
+	
 }
 
-.news{
-	font-variant:bold;
+.news > h1{
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
+	border-bottom: 1px solid black;
+	
 }
+
+
 
 .calendar > span.calendar_month_year{
 	background-color: blue;
@@ -527,30 +545,60 @@ footer .column {
 
 
 /* fin feeds */
-/**
-Entreprises
-*/
+
+
+/******************************************
+*****************Entreprises***************
+********************************************/
 
 .partenaires{
 	padding: 3em;
 	margin-top: 1em;
-	
+	border-bottom: 1px solid #e1e4e8;
 }
 
 .partenaires_block > div{
-	margin: 1em;
+	margin: 1em;	
 }
 
 .title_partenaire{
-	padding: 2em;
 	margin-left: 2em;
 	font-size: 18px;
 	font-weight: bold;
+	padding: 1em;
+}
+
+.partenariats {
+	margin-left: 2em;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.partenariats > h1{
+	text-align:center;
+	border-bottom: 1px solid #e1e4e8;
+	margin-bottom:1em;
+	font-weight: bold
+}
+
+.partenariats  p{
+	margin-left: 1em;
+}
+
+.partenariats > h2{
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
+	border-bottom: 1px solid #e1e4e8;
 }
 
 .taxe h1{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
 	font-size: 24px;
 	text-align: center;
+	border-bottom: 1px solid #e1e4e8;
 }
 
 .taxe{

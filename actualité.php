@@ -25,12 +25,14 @@
 			$req_news->execute(array( 'id_news' => $_GET['id_news']));
 			$data = $req_news->fetch();
 			?>
-			<article class="choosen_news">
+			<article class="news">
 				<h1 class="title_news"><?php echo utf8_encode($data['title']);?></h1> 
 				<br />		
-				<p>Date de l'article : <?php echo $data['date']; ?></p>
+				<p>Écrit le <b><?php echo $data['date']; ?></b></p>
 				<br />
 				<p class="contenu_article"> <?php echo utf8_encode($data['contenu']); ?></p>
+				
+				<a href="Index.php"> Retour à l'acceuil </a>
 			</article>
 			<?php
 			$req_news->closeCursor();
@@ -55,7 +57,7 @@
 			
 			
 			//affichage de toutes les news selon la page et le nombre de news
-			$req_all_news = $link->prepare('SELECT * from news LIMIT '.(($pag_cour-1)*$nb_news_affiche).', '.$nb_news_affiche);
+			$req_all_news = $link->prepare('SELECT * from news ORDER by date desc LIMIT '.(($pag_cour-1)*$nb_news_affiche).', '.$nb_news_affiche);
 			$req_all_news->execute();
 			?>
 		
@@ -66,9 +68,9 @@
 					?>
 					<article class="news">
 							<h1><?php echo utf8_encode($data['title']); ?> </h1>
-							<p class="date">Date de l'article : <?php echo $data['date']; ?></p>
+							<p class="date">Écrit le <b> <?php echo $data['date']; ?></b></p>
 							
-							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 300));?> . . .
+							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 500));?> . . .
 							<a href="actualité.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>
 							</p>
 					</article>

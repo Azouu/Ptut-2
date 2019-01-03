@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Accueil</title>
+	<title>Alternances</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
@@ -17,7 +17,7 @@
 	?>
 
 	<div>
-	<p>Quoi mettre????</p>
+	<p>//Supprimer si pas d'idée// !!!!!!Quoi mettre???? !!!!!!! </p>
 	</div>
 
 		

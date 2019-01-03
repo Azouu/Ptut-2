@@ -152,23 +152,15 @@
 					$req = $link->prepare('select * from news order by date desc limit 3');
 					$req->execute();
 					
+					
 					while($data = $req->fetch()){
-						//echo utf8_encode('<article class="news"> <h1>'.$data['title']. '</h1><p class="date">Date de l\'article : '.$data['date'].'</p> <br /><p class="news_contenu">'.
-						//substr($data['contenu'],0, 300).' . . . <a href="#">En savoir plus</a></br ></article>' );
+						$list = date_parse($data['date']);
+						//Pour afficher les mois en français ERREUR
+						setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
 						?>
 						<article class="news">
-							<!--A voir et à finir-->
-							<div class="calendar">
-								<?php 
-									$list = date_parse($data['date']);
-									//Pour afficher les mois en français ERREUR
-									setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
-								?>
-								<span class="calendar_month_year"> <?php echo strftime("%B",$list['month']).' '.$list['year'];?> </span>
-								<span class="calendar_day"> <span><?php echo $list['day'];?></span> </span>
-							</div>
 							<h1><?php echo utf8_encode($data['title']); ?> </h1>
-							<p class="date">Date de l'article : <b><?php echo $list['day'].' '.ucfirst(strftime("%B",$list['month'])).' '. $list['year']; ?></b></p>
+							<p class="date">Écrit le <b><?php echo $list['day'].' '.ucfirst(strftime("%B",$list['month'])).' '. $list['year']; ?></b></p>
 							
 							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 300));?> . . .
 							<a href="actualité.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>

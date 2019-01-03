@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Accueil</title>
+	<title>Taxes</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
@@ -20,7 +20,7 @@
 	
 	<div class="taxe">
 		
-			<h1> <b>Taxe d'apprentissage </b>: Investir dans les compétences de demain</h1>
+			<h1> <b>Taxe d'apprentissage </b>: Investir dans les compétences de demain.</h1>
 			
 			<br />
 		
