@@ -485,3 +485,60 @@ footer .column {
 
 
 /* fin feeds */
+
+/* #####################################
+				CONTACT
+   ##################################### */
+	.contact-infos {
+		border : black 1px solid;
+		width : 30%;
+	}
+
+	.contact-container {
+		border : green 1px solid;
+		width:  100%;
+		padding: 2em;
+		font-family: 'Roboto', Helvetica;
+	}
+
+	.form-container {
+		width : 40%;
+		border : red 1px solid;
+
+	}
+	.contact-title {
+	font-size: 1.5em;
+	}
+
+
+   .contact-input {
+   	border : 1px solid #ccc;
+   	border-radius: 4px;
+   	box-sizing: border-box;
+   	margin-top: 0.5em;
+   	margin-bottom: 1em;
+   	resize: vertical;
+   	width: 100%;
+   }
+
+   .contact-form {
+   	margin : 2em 0;
+   }
+
+   .contact-form label {
+   	font-size: 1.2em;
+   }
+   .contact-submit {
+   	background-color: #4C77AD !important;
+   	color: white !important;
+   	padding: 1em !important;
+   	border : #4C77AD solid 1px !important;
+   	border-radius: 4px !important;
+   	cursor: pointer !important;
+   	width : 40%;
+   }
+   
+   .contact-submit:hover {
+   	background-color: #8A8A8A !important;
+   	transition: 0.4s;
+   }

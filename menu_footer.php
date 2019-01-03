@@ -12,7 +12,7 @@
 
 
 <ul class="menu">
-      <li class="menu-element" ><a href="Contact.html">Contact</a></li>
+      <li class="menu-element" ><a href="contact.php">Contact</a></li>
 
       <li class="menu-element--dropbtn" >
         <a href="#">Alumni</a>
@@ -71,7 +71,7 @@
         <div class="column col-2">
           <div class="site-footer-contact">
              <p class="site-footer-title"> Contactez-nous !</p>
-             <a href="#" class="site-footer-link"><i class="fa fa-external-link"></i>Formulaire de contact</a>
+             <a href="contact.php" class="site-footer-link"><i class="fa fa-external-link"></i>Formulaire de contact</a>
              <p class="site-footer-contact--adresse">
               Université Paul Sabatier Toulouse III <br/>
               118, route de Narbonne <br/>
