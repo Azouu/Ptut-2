@@ -27,9 +27,9 @@
       <li class="menu-element--dropbtn">
         <a href="#">Entreprises</a>
         <div class="dropdown-content">
-          <a href="Partenaires.html">Partenaires</a>
-          <a href="Alternance.html">Alternance</a>
-          <a href="Taxe.html">Taxe d'apprentissage</a>
+          <a href="Partenaires.php">Partenaires</a>
+          <a href="Alternance.php">Alternance</a>
+          <a href="Taxe.php">Taxe d'apprentissage</a>
         </div>
       </li>
 
@@ -57,7 +57,7 @@
       <li class="menu-element--dropbtn">
         <a href="index.php">Accueil</a>
         <div class="dropdown-content">
-          <a href="Actualites.html">Actualités</a>
+          <a href="actualité.php">Actualités</a>
           <a href="Promotion.html">Promotion actuelle</a>
         </div>
       </li>

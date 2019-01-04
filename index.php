@@ -146,8 +146,32 @@
 			
 			<div class="latest-news col-4">
 				<p class="latest-news-title txtcenter"><i class="fa fa-newspaper-o"></i>Dernières actualités</p>
-
-				<a href="#" class="hero-img-button newsfeed-btn"><span>Toutes les actualités</span></a>
+				<div class="last-news">
+					<?php
+					require('connexion.php');
+					$req = $link->prepare('select * from news order by date desc limit 3');
+					$req->execute();
+					
+					
+					while($data = $req->fetch()){
+						$list = date_parse($data['date']);
+						//Pour afficher les mois en français ERREUR
+						setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
+						?>
+						<article class="news">
+							<h1><?php echo utf8_encode($data['title']); ?> </h1>
+							<p class="date">Écrit le <b><?php echo $list['day'].' '.ucfirst(strftime("%B",$list['month'])).' '. $list['year']; ?></b></p>
+							
+							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 300));?> . . .
+							<a href="actualité.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>
+							</p>
+						</article>
+						<?php
+					}//Fin news
+					$req->closeCursor();
+					?>
+				</div>
+				<a href="actualité.php" class="hero-img-button newsfeed-btn"><span>Toutes les actualités</span></a>
 			</div>
 
 			<div class="twitter col-2 right">
@@ -161,6 +185,8 @@
 			</div>
 
 	</div>	
+	
+	
 
 
 <script>

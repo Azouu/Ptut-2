@@ -457,7 +457,6 @@ footer .column {
 .twitter {
 	width: 20em;
 	margin-right: 5em;
-
 }
 	
 .latest-news {
@@ -475,15 +474,134 @@ footer .column {
 	font-size : 0.9em;
 	width: 15em;
 	margin-right: 0; /* positionnement forcé aka gitanisme */
-	margin-top: 36em;
-
+	margin-top: 5em;
 }
 
 .newsfeed-btn:hover {
 	color : white;
 }
 
+.last-news{
+	word-wrap: break-word;
+	display: block;
+}
 
+.last-news p{
+	font-size: 15px;
+}
+
+.choosen_news{
+	text-align: center;
+	display: block;
+	position:relative;
+}
+
+.all_news{
+	height: auto;
+	top:1em;
+	margin: auto;
+	margin-left: 1em;
+}
+
+.all_news >h1{
+	margin-left: 1em;
+	border-bottom: 1px solid #e1e4e8;
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
+}
+
+.all_news > a{
+	margin: 0.5em;
+}
+
+
+.news{
+	margin-left: 3em;
+	width:95%;
+	word-wrap:break-word;
+	border-bottom: 2px solid #e1e4e8;
+	margin-bottom : 1em;
+	
+	
+}
+
+.news > h1{
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
+	border-bottom: 1px solid black;
+	
+}
+
+
+
+.calendar > span.calendar_month_year{
+	background-color: blue;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding:  8px 1px;
+	width: 75px;
+}
+
+
+/* fin feeds */
+
+
+/******************************************
+*****************Entreprises***************
+********************************************/
+
+.partenaires{
+	padding: 3em;
+	margin-top: 1em;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.partenaires_block > div{
+	margin: 1em;	
+}
+
+.title_partenaire{
+	margin-left: 2em;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 1em;
+}
+
+.partenariats {
+	margin-left: 2em;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.partenariats > h1{
+	text-align:center;
+	border-bottom: 1px solid #e1e4e8;
+	margin-bottom:1em;
+	font-weight: bold
+}
+
+.partenariats  p{
+	margin-left: 1em;
+}
+
+.partenariats > h2{
+	width: -moz-max-content;    /* Firefox/Gecko */
+	width: -webkit-max-content;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.taxe h1{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+<<<<<<< HEAD
 /* fin feeds */
 
 /* #####################################
@@ -542,3 +660,20 @@ footer .column {
    	background-color: #8A8A8A !important;
    	transition: 0.4s;
    }
+=======
+.taxe{
+ top : 1em;
+  width : 100%;
+  margin: auto;
+  position: relative;
+}
+
+.taxe_img{
+	width: auto;
+	margin: 1em;
+}
+
+.taxe_img > div{
+	margin:1em;
+}
+>>>>>>> b0fc6ca2b5606277f7bef5433bcf8c61d4330695
