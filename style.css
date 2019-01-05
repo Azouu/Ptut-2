@@ -660,6 +660,110 @@ footer .column {
    	background-color: #8A8A8A !important;
    	transition: 0.4s;
    }
+
+/* #####################################
+				PROGRAMME
+   ##################################### */
+
+.rubrique{
+    background-color:#374f65;
+}
+
+.rubrique-title{
+    font-size:250%;
+    color:white;
+    font-family:Roboto;
+}
+
+.contenu{
+    color:#454d5d;
+    font-family:Roboto;
+}
+
+.conteneur{
+    margin-left:100px; 
+    margin-right:600px;
+}
+
+.sous_titre{
+    border-bottom-style: solid;
+    border-bottom-color: #868e96;
+    border-bottom-width: 2px;
+    text-align:center; 
+    margin-bottom:40px;
+}
+
+.titre_paragraphe{
+    border-bottom:2px solid #868e96;
+    margin-bottom:20px;
+}
+
+.blanc{
+    color:white;
+}
+
+.moitie{
+    width:50%;
+}
+
+.bordure-gauche{
+    border-left-style: solid;
+    border-color: #3B4451; 
+    border-width: 6px;
+    padding-left:1%;
+    background-color: #D7DADB;
+    color:#374F65;
+}
+
+.bordure-droite-bas{
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #374F65; 
+    border-right-width: 6px;
+    border-bottom-width: 2px;
+    background-color: #D7DADB;
+    color:#333;
+}
+
+.lien{
+    text-decoration: none;
+}
+
+.lien:hover{
+	text-decoration: none;
+	transition: 0.2s;
+    opacity: 0.5;
+}
+
+/* #####################################
+				DEVENIR ALUMNI
+   ##################################### */
+.champ{
+    margin-bottom:2%;
+    background-color: #374F65;
+    color:white;
+}
+
+.droite{
+    float:right;
+    height: 100%;
+    width:50%;
+}
+
+.large{
+    text-align: center;
+    width:100%;
+}
+
+.marge{
+    padding-left:2%;
+}
+
+.captcha{
+    float:right;
+    margin-top:1%;
+}
+
 =======
 .taxe{
  top : 1em;
