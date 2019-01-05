@@ -22,13 +22,13 @@
                     <p class="rubrique-title"> Equipe pédagogique </p>  
             </div>
          
-           <section class="grid-4 has-gutter">
+           <div class="conteneur">
 
                 <div class="col-8 center">                    
                          <nav class="col-1 tabs-menu">
-                            <a href="#tab1" class="lien tabs-menu-link is-active" style="text-decoration:none;">Origine des membres académiques et non-académiques</a>
+                            <a href="#tab1" class="lien tabs-menu-link is-active" style="text-decoration:none;">Origine des membres</a>
                             <a href="#tab2" class="lien tabs-menu-link" style="text-decoration:none;">Partenariats pédagogiques</a>
-                            <a href="#tab3" class="lien tabs-menu-link" style="text-decoration:none;">Accords internationaux avec des universités étrangères</a>
+                            <a href="#tab3" class="lien tabs-menu-link" style="text-decoration:none;">Accords internationaux </a>
                          </nav>
                     
                         <div class="tabs-content tab-inscription" >
@@ -79,8 +79,7 @@
                             </div>
                       </div>
                </div>
-            <div class="col-1"></div>
-        </section>
+        </div>
              
    </div>          
 </body>

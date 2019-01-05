@@ -26,43 +26,43 @@
       <li class="menu-element--dropbtn">
         <a href="#">Entreprises</a>
         <div class="dropdown-content">
-          <a href="Partenaires.php">Partenaires</a>
-          <a href="Alternance.php">Alternance</a>
-          <a href="Taxe.php">Taxe d'apprentissage</a>
+          <a href="../Entreprises/Partenaires.php">Partenaires</a>
+          <a href="../Entreprises/Alternance.php">Alternance</a>
+          <a href="../Entreprises/Taxe.php">Taxe d'apprentissage</a>
         </div>
       </li>
 
       <li class="menu-element--dropbtn">
         <a href="#">Vie étudiante</a>
         <div class="dropdown-content">
-          <a href="Campus.php">Campus</a>
-          <a href="Associations.php">Associations étudiantes</a>
-          <a href="International.php">International</a>
-          <a href="Evenements.php">Événements</a>
+          <a href="../Vie%20%C3%A9tudiante/Campus.php">Campus</a>
+          <a href="../Vie%20%C3%A9tudiante/Associations.php">Associations étudiantes</a>
+          <a href="../Vie%20%C3%A9tudiante/International.php">International</a>
+          <a href="../Vie%20%C3%A9tudiante/Evenements.php">Événements</a>
         </div>
       </li>
       
       <li class="menu-element--dropbtn">
         <a href="#">Formation</a>
         <div class="dropdown-content">
-          <a href="../Formation/Programme.php">Programme</a>
-          <a href="../Formation/Inscription.php">Inscription</a>
-          <a href="../Formation/Equipe.php">Équipe pédagogique</a>
-          <a href="../Formation/Amenagement.php">Aménagement des études</a>
-          <a href="../Formation/Debouches.php">Débouchés professionnels</a>
+          <a href="Programme.php">Programme</a>
+          <a href="Inscription.php">Inscription</a>
+          <a href="Equipe.php"> Equipe pédagogique </a>
+          <a href="Amenagement.php">Aménagement des études</a>
+          <a href="Debouches.php">Débouchés professionnels</a>
         </div>
       </li>
 
       <li class="menu-element--dropbtn">
         <a href="../index.php">Accueil</a>
         <div class="dropdown-content">
-          <a href="actualité.php">Actualités</a>
-          <a href="Promotion.php">Promotion actuelle</a>
+          <a href="../actualité.php">Actualités</a>
+          <a href="../Promotion.php">Promotion actuelle</a>
         </div>
       </li>
     
     <li class="menu-element--dropbtn" style="float:left">
-		<img src="./images/logo.PNG" alt="MITAT_Icone">
+		<img src="../images/logo.PNG" alt="MITAT_Icone">
 	  </li>
     
   </ul>

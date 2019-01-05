@@ -21,9 +21,8 @@
             <div class="row txtcenter rubrique" > 
                     <p class="rubrique-title"> Inscriptions </p>  
             </div>
-            
-            <div class="row">
-                <div class="center moitie">
+              <img src="images/University-Application-000036808402_Large.jpg" style='float:right; margin-top:3%; margin-right:10%; width:25%; height:25%;'>
+                <div class="conteneur">
                       <nav class="tabs-menu">
                         <a href="#tab1" class="lien tabs-menu-link is-active" >Qui peut postuler ?</a>
                         <a href="#tab2" class="lien tabs-menu-link">Procédure d'inscription</a>
@@ -74,7 +73,6 @@
                         
                     </div>
             </div>
-        </div>
          
      </body>
 </html>
