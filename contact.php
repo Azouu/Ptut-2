@@ -15,11 +15,39 @@
 		require('menu_footer.php');
 	?>
 
+	<?php
+	if(isset($_POST['email'])) {
 
+	    $email_to = "seclv@adm.ups-tlse.fr";
+	    $email_subject = $_POST['object'];
+	    $prenom = $_POST['prenom'];
+	    $nom = $_POST['nom'];
+	    $email_from = $_POST['email'];
+	    $object = $_POST['object'];
+	    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+	    $email_message = "Form details below.\n\n";
 
-	<div class="contact-container ">
+	    function clean_string($string) {
+	      $bad = array("content-type","bcc:","to:","cc:","href");
+	      return str_replace($bad,"",$string);
+	    }
 
-		<div class="contact-infos right">
+	    $email_message .= "Prénom : ".clean_string($first_name)."\n";
+	    $email_message .= "Nom : ".clean_string($last_name)."\n";
+	    $email_message .= "Email: ".clean_string($email_from)."\n";
+	    $email_message .= "Objet: ".clean_string($object)."\n";
+
+			$headers = 'From: '.$email_from."\r\n".
+			'Reply-To: '.$email_from."\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+			@mail($email_to, $email_subject, $email_message, $headers);
+
+}
+	?>
+
+<div class="contact-container">
+
+		<div class="contact-infos fr" style="margin : 2em; padding : 2em; background-color : #F7F7F7;">
 		<p class="contact-info-title">Secrétariat MITAT</p>
 		<p class="contact-info">
               Université Paul Sabatier Toulouse III <br/>
@@ -43,7 +71,7 @@
 		<div class="form-container left">
 
 			<p class="contact-title">Contactez-nous</p>
-
+			<p>Vous pouvez nous contacter en utilisant le formulaire ci-dessous : </p>
 			<form action="submit_mail.php">
 
 				<div class="contact-form">
@@ -57,14 +85,8 @@
 				</div class="contact-form">
 
 				<div class="contact-form">
-					<label for="lname">Pays</label>
-					<input type="text" class="contact-input country" name="country" placeholder="Votre pays" required>
-				</div>
-
-
-				<div class="contact-form">
 					<label for="email">Email</label>
-					<input type="mail" class="contact-input mail" name="email" placeholder="Votre email" required>
+					<input type="text" class=" mail" name="email" placeholder="Votre email" required>
 				</div>
 
 				<div class="contact-form">
@@ -81,7 +103,7 @@
 				<input type="submit" name="send" value="Envoyer" class="contact-submit fr">
 			</form>
 		</div>
-	</div>
 
+</div>
 </body>
 </html>
