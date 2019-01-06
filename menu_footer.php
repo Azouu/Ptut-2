@@ -16,7 +16,7 @@
       <li class="menu-element--dropbtn" >
         <a href="alumni.php">Alumni</a>
         <div class="dropdown-content">
-          <a href="portraits.php">portraits</a>
+          <a href="portraits.php">Portraits</a>
           <a href="temoignages.php">Témoignages</a>
           <a href="devenir_alumni.php">Devenir Alumni</a>
         </div>

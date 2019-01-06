@@ -19,7 +19,7 @@
             <div class="row txtcenter rubrique">
                     <p class="rubrique-title"> Débouchés professionnels </p>
             </div>
-            <img src="images/corporate-travel.jpg" style='float:right; margin-top:5%; margin-right:10%; width:25%; height:25%;'>
+            <img src="assets/img/corporate-travel.jpg" style='float:right; margin-top:5%; margin-right:10%; width:25%; height:25%;'>
 
             <div class="conteneur">
                 <h4 class="titre_paragraphe">Insertion professionnelle</h4>

@@ -71,7 +71,7 @@
 							<p class="date">Écrit le <b> <?php echo $data['date']; ?></b></p>
 
 							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 500));?> . . .
-							<a href="actualité.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>
+							<a href="actualites.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>
 							</p>
 					</article>
 				<?php
@@ -81,7 +81,7 @@
 
 			for($i = 1; $i<=$nbpages;$i++){
 				?>
-				<a href='actualité.php?page=<?php echo $i;?>'> <?php echo $i; ?></a>
+				<a href='actualites.php?page=<?php echo $i;?>'> <?php echo $i; ?></a>
 				<?php
 			}
 

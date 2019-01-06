@@ -22,7 +22,7 @@
                     <p class="rubrique-title"> Programme </p>
             </div>
 
-            <img src="images/skills.jpg" style='float:right; margin-top:5%; margin-right:10%; width:25%; height:25%;'>
+            <img src="assets/img/skills.jpg" style='float:right; margin-top:5%; margin-right:10%; width:25%; height:25%;'>
             <div class="conteneur">
                   <nav class="tabs-menu">
                     <a href="#tab1" class="lien tabs-menu-link is-active" >Programme</a>
@@ -104,7 +104,7 @@
                             Pendant le stage, le stagiaire doit être suivi par son tuteur de stage ainsi que son tuteur pédagogique. </p>
 
                         <p>La notation du travail de l'étudiant sera articulée autour de trois axes: la qualité de la réalisation des tâches qui lui ont été confiées durant le stage, la qualité du rapport écrit, et la qualité de sa présentation orale en langue anglaise. </p>
-                        <img src="images/stagesmitatpromo.png" alt="Repartition des stages des étudiants">
+                        <img src="assets/img/stagesmitatpromo.png" alt="Repartition des stages des étudiants">
                      </div>
 
                     <div class="alert--success center">

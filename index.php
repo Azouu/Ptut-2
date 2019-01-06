@@ -137,7 +137,7 @@
 					$req->closeCursor();
 					?>
 				</div>
-				<a href="actualité.php" class="hero-img-button newsfeed-btn"><span>Toutes les actualités</span></a>
+				<a href="actualites.php" class="hero-img-button newsfeed-btn"><span>Toutes les actualités</span></a>
 			</div>
 
 			<div class="twitter col-2 right">
