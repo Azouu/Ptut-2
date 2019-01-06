@@ -3,11 +3,11 @@
 <head>
 	<title>Contact</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" type="text/javascript" href="script.js">
+  	<link rel="stylesheet" type="text/javascript" href="assets/scripts/script.js">
 
 </head>
 <body>
@@ -34,7 +34,7 @@
 
 
              <p class="contact-info-title">Université Paul Sabatier (Accueil Général)</p>
-              
+
              <p><i class='fa fa-phone'></i>+33 (0)5 61 55 66 11</p>
              <p><i class='fa fa-envelope'></i>Scolarité et inscriptions : info-inscriptions@adm.ups-tlse.fr</p>
              <p><i class='fa fa-envelope'></i>Etudiants étrangers : etudiants.etrangers@adm.ups-tlse.fr</p>
