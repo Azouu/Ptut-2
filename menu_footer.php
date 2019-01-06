@@ -25,7 +25,6 @@
         <a href="#">Entreprises</a>
         <div class="dropdown-content">
           <a href="partenaires.php">Partenaires</a>
-          <a href="alternance.php">Alternance</a>
           <a href="taxe.php">Taxe d'apprentissage</a>
         </div>
       </li>
