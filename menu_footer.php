@@ -1,12 +1,11 @@
-
 <div class="link-nav grid">
   <p class="link-nav--left txtleft">
           <a href="#">FR</a> |
           <a href="#">ENG</a>
   </p>
   <div class="link-nav--right txtright">
-      <a href="#">INTRANET</a> |
-      <a href="#">UPS</a>
+      <a href="espace.php">INTRANET</a> |
+      <a href="http://www.univ-tlse3.fr/">UPS</a>
   </div>
 </div>
 
@@ -15,53 +14,55 @@
       <li class="menu-element" ><a href="contact.php">Contact</a></li>
 
       <li class="menu-element--dropbtn" >
-        <a href="#">Alumni</a>
+        <a href="alumni.php">Alumni</a>
         <div class="dropdown-content">
-          <a href="Monde.html">Dans le monde</a>
-          <a href="Portraits.html">Portraits</a>
-          <a href="Temoignages.html">Témoignages</a>
-          <a href="DevenirAlumni.html">Devenir Alumni</a></li>
+          <a href="portraits.php">portraits</a>
+          <a href="temoignages.php">Témoignages</a>
+          <a href="devenir_alumni.php">Devenir Alumni</a>
         </div>
       </li>
 
       <li class="menu-element--dropbtn">
-        <a href="#">Entreprises</a>
+        <a href="entreprises.php">Entreprises</a>
         <div class="dropdown-content">
-          <a href="Partenaires.php">Partenaires</a>
-          <a href="Alternance.php">Alternance</a>
-          <a href="Taxe.php">Taxe d'apprentissage</a>
+          <a href="partenaires.php">Partenaires</a>
+          <a href="alternance.php">Alternance</a>
+          <a href="taxe.php">Taxe d'apprentissage</a>
         </div>
       </li>
 
       <li class="menu-element--dropbtn">
-        <a href="#">Vie étudiante</a>
+        <a href="vie_etudiante.php">Vie étudiante</a>
         <div class="dropdown-content">
-          <a href="Campus.html">Campus</a>
-          <a href="Associations.html">Associations étudiantes</a>
-          <a href="International.html">International</a>
-          <a href="Evenements.html">Événements</a>
+          <a href="campus.php">Campus</a>
+          <a href="associations.php">Associations étudiantes</a>
+          <a href="international.php">International</a>
+          <a href="evenements.php">Événements</a>
         </div>
       </li>
-      
+
       <li class="menu-element--dropbtn">
-        <a href="#">Formation</a>
+        <a href="formation.php">Formation</a>
         <div class="dropdown-content">
-          <a href="Programme.html">Programme</a>
-          <a href="Inscription.html">Inscription</a>
-          <a href="Equipe.html">Équipe pédagogique</a>
-          <a href="Amenagement.html">Aménagement des études</a>
-          <a href="Debouches.html">Débouchés professionnels</a>
+          <a href="programme.php">Programme</a>
+          <a href="inscription.php">Inscription</a>
+          <a href="equipe.php"> Equipe pédagogique </a>
+          <a href="amenagement.php">Aménagement des études</a>
+          <a href="debouches.php">Débouchés professionnels</a>
         </div>
       </li>
 
       <li class="menu-element--dropbtn">
         <a href="index.php">Accueil</a>
         <div class="dropdown-content">
-          <a href="actualité.php">Actualités</a>
-          <a href="Promotion.html">Promotion actuelle</a>
+          <a href="actualites.php">Actualités</a>
         </div>
       </li>
-    
+
+    <li class="menu-element--dropbtn" style="float:left">
+		<img src="assets/img/logo.PNG" alt="MITAT_Icone">
+	  </li>
+
   </ul>
 
 
@@ -85,22 +86,22 @@
 
 
 
-        <div class="column"> 
+        <div class="column">
           <p class="site-footer-title">Navigation rapide</p>
-          <a href="#" class="site-footer-link">Formation</a>
-          <a href="#" class="site-footer-link">Vie étudiante</a>
-          <a href="#" class="site-footer-link">Entreprises</a>
-          <a href="#" class="site-footer-link">Alumni</a> 
+          <a href="formation.php" class="site-footer-link">Formation</a>
+          <a href="vie_etudiante.php" class="site-footer-link">Vie étudiante</a>
+          <a href="entreprises.php" class="site-footer-link">Entreprises</a>
+          <a href="alumni.php" class="site-footer-link">Alumni</a>
         </div>
 
 
        <div class="column social-media">
            <p class="site-footer-title">Suivez-nous</p>
-           <div class="social-media-icons"> 
-                <a href="#" class="fa fa-facebook"></a> 
-                <a href="#" class="fa fa-twitter"></a> <br/>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+           <div class="social-media-icons">
+                <a href="https://www.facebook.com/Master-2-MITAT-378035218874440/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/ups_amitat?lang=fr" class="fa fa-twitter"></a> <br/>
+                <a href="https://www.instagram.com/mastermitatups/" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/groups/13561682/profile" class="fa fa-linkedin"></a>
            </div>
        </div>
     </div>
@@ -109,14 +110,11 @@
     <div class="global-footer">
       <div class="global-footer-links">
         <p class="global-footer-link--p">©2018 Université Paul Sabatier. Tous droits réservés. </p>
-        <a href="#" class="global-footer-link">Report de bug</a>
-        <a href="#" class="global-footer-link">Intranet</a> 
-        <a href="#" class="global-footer-link">Plan du site</a> 
-        <a href="#" class="global-footer-link">UPS</a> 
-        <a href="#" class="global-footer-link">Mentions légales</a> 
-        
+        <a href="espace.php" class="global-footer-link">Intranet</a>
+        <a href="http://www.univ-tlse3.fr/" class="global-footer-link">UPS</a>
+        <a href="http://www.univ-tlse3.fr/mentions-legales/" class="global-footer-link">Mentions légales</a>
+
       </div>
     </div>
 
   </footer>
-

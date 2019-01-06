@@ -3,21 +3,21 @@
 <head>
 	<title>Accueil</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" type="text/javascript" href="script.js">
+  	<link rel="stylesheet" type="text/javascript" href="assets/scripts/script.js">
 </head>
 <body>
 
 	<?php
 		require('menu_footer.php');
 	?>
-	
-	
-	<img src="photo/partnersEv.png" style='float:right; margin-top:110px; margin-right:125px; width:400px; height:500px;'>
+
+
+	<img src="assets/img/partnersEv.png" style='float:right; margin-top:110px; margin-right:125px; width:400px; height:500px;'>
 		<div style='margin-left:100px; margin-right:600px;'>
 			<h1 style='border-bottom: 2px solid #868e96; text-align:center; margin-bottom:25px;'>Événements</h1>
 			<p style='margin-top:25px; margin-bottom:40px;'>Les étudiants du Master MITAT se mobilisent chaque année pour organiser des évènements en lien avec leurs domaines d’étude ainsi que des visites touristiques.</p>
@@ -31,6 +31,6 @@
 			<p>18 Janvier: Conférence à l’aéroport Toulouse-Blagnac animée par le Directeur des Opérations M. Alain De La Meslière, et visite de l’aéroport</p>
 			<p>19 au 22 Janvier: Séjour à Madrid pour le FITUR et découverte de la ville</p>
 		</div>
-	
+
 </body>
 </html>

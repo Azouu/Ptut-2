@@ -3,12 +3,12 @@
 <head>
 	<title>Accueil</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" type="text/javascript" href="script.js">
+  	<link rel="stylesheet" type="text/javascript" href="assets/scripts/script.js">
 </head>
 <body>
 
@@ -39,13 +39,13 @@
 		<a class="slides-next" onclick="plusSlides(1)">&#10095;</a>
 
 		<div class="slides-dots">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 
 	</div>
-	
+
 		<!-- ------------- -->
 		<!-- FIN Slideshow -->
 		<!-- ------------- -->
@@ -54,7 +54,7 @@
 		<!-- Chiffres clés -->
 		<!-- ------------- -->
 
-	<div class="key-informations grid-5 has-gutter"> 
+	<div class="key-informations grid-5 has-gutter">
 
 		<div></div>
 
@@ -75,7 +75,7 @@
 		<div class="key-information txtcenter">
 			<div class="key-information-icon"><i class="fa fa-trophy" style="font-size: 4em"></i></div>
 			<p class="key-information-title">Rang A</p>
-			<p class="key-information-text">Excellence en 2011 par le Ministère 
+			<p class="key-information-text">Excellence en 2011 par le Ministère
 				de l'Enseignement Supérieur</p>
 		</div>
 
@@ -87,40 +87,6 @@
 	<!-- Fin chiffres clés --->
 	<!-- ------------- ------->
 
-
-		<!-- ------------- -->
-		<!-- Témoignages -->
-		<!-- ------------- -->
-
-	<div class="witnesses grid-6 has-gutter"> 
-		<div></div>
-	
-		<div></div>
-
-		<div class="witness txtcenter">
-			<div class="witness-img"><i class="fa fa-user-circle-o" style="font-size:4em"></i></div>
-			<p class="witness-text"><i class='fa fa-quote-left'></i>
-			Témoignage
-			<i class='fa fa-quote-right'></i></p>
-		</div>
-
-	
-
-		<div class="witness txtcenter" >
-			<div class="witness-img"><i class="fa fa-user-circle-o" style="font-size:4em"></i></div>
-			<p class="witness-text"><i class='fa fa-quote-left'></i>
-			Témoignage
-			<i class='fa fa-quote-right'></i></p>
-		</div>
-
-		<div></div>
-	<div></div>
-
-	</div>
-
-	<!-- ------------- ----->
-	<!-- Fin Témoignages --->
-	<!-- ------------- ----->
 
 
 	<!-- ------------- ----->
@@ -143,7 +109,7 @@
 
 	<div class="newsfeed grid-6 has gutter">
 
-			
+
 			<div class="latest-news col-4">
 				<p class="latest-news-title txtcenter"><i class="fa fa-newspaper-o"></i>Dernières actualités</p>
 				<div class="last-news">
@@ -151,8 +117,8 @@
 					require('connexion.php');
 					$req = $link->prepare('select * from news order by date desc limit 3');
 					$req->execute();
-					
-					
+
+
 					while($data = $req->fetch()){
 						$list = date_parse($data['date']);
 						//Pour afficher les mois en français ERREUR
@@ -161,7 +127,7 @@
 						<article class="news">
 							<h1><?php echo utf8_encode($data['title']); ?> </h1>
 							<p class="date">Écrit le <b><?php echo $list['day'].' '.ucfirst(strftime("%B",$list['month'])).' '. $list['year']; ?></b></p>
-							
+
 							<p class="news_contenu"> <?php echo utf8_encode(substr($data['contenu'],0, 300));?> . . .
 							<a href="actualité.php?id_news=<?php echo $data['id_news']; ?>">Voir plus d'informations</a>
 							</p>
@@ -184,9 +150,9 @@
 				</article>
 			</div>
 
-	</div>	
-	
-	
+	</div>
+
+
 
 
 <script>
@@ -205,18 +171,18 @@
 	  var i;
 	  var slides = document.getElementsByClassName("slides");
 	  var dots = document.getElementsByClassName("dot");
-	  if (n > slides.length) {slideIndex = 1}    
+	  if (n > slides.length) {slideIndex = 1}
 	  if (n < 1) {slideIndex = slides.length}
 	  for (i = 0; i < slides.length; i++) {
-	      slides[i].style.display = "none";  
+	      slides[i].style.display = "none";
 	  }
 	  for (i = 0; i < dots.length; i++) {
 	      dots[i].className = dots[i].className.replace(" active", "");
 	  }
-	  slides[slideIndex-1].style.display = "block";  
+	  slides[slideIndex-1].style.display = "block";
 	  dots[slideIndex-1].className += " active";
 	}
 </script>
-		
+
 </body>
 </html>

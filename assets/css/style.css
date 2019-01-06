@@ -1,20 +1,20 @@
 /* MISE EN PLACE DES POLICES */
 @font-face {
 	font-family: herofontMaj;
-	src: url('./fonts/TitilliumWeb-Bold.ttf');
+	src: url('../fonts/TitilliumWeb-Bold.ttf');
 }
 
 @font-face {
 	font-family: opensans-regular;
-	src: url('./fonts/OpenSans-Regular.ttf');
+	src: url('../fonts/OpenSans-Regular.ttf');
 }
 @font-face {
 	font-family: opensans-extrabold;
-	src: url('./fonts/OpenSans-ExtraBold.ttf');
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
 }
 @font-face {
 	font-family: opensans-bold;
-	src: url('./fonts/OpenSans-Bold.ttf');
+	src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 
@@ -25,7 +25,7 @@
 
 .menu {
 	list-style-type: none;
-	
+
 	overflow: hidden;
 	background-color: #D7DADB;
 }
@@ -35,7 +35,7 @@
 }
 
 .menu-element a, .menu-element--dropbtn a
-{	
+{
 	transition: all .2s ease-in;
 	display: inline-block;
 	text-align: center;
@@ -269,7 +269,7 @@ footer .column {
   position: absolute;
   top: 30%;
   width: auto;
-  padding: 1em;  
+  padding: 1em;
   margin-top: auto;
   color: black;
   font-weight: bold;
@@ -332,12 +332,12 @@ footer .column {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -346,7 +346,7 @@ footer .column {
 }
 
 
-/* Fin Slideshow */ 
+/* Fin Slideshow */
 
 /* Chiffres clés  et témoignages */
 
@@ -398,7 +398,7 @@ footer .column {
 	font-family: opensans-regular;
 	color: #D7DADB;
 	font-size: 1.1em;
-	
+
 }
 
 .hero-img-button {
@@ -415,7 +415,7 @@ footer .column {
   transition: all 0.5s;
   cursor: pointer;
   display: block;
-  margin : auto;	
+  margin : auto;
   position: relative;
   bottom: 4em;
 }
@@ -458,7 +458,7 @@ footer .column {
 	width: 20em;
 	margin-right: 5em;
 }
-	
+
 .latest-news {
 	height : 40em;
 	margin-left: 5em;
@@ -521,15 +521,15 @@ footer .column {
 	word-wrap:break-word;
 	border-bottom: 2px solid #e1e4e8;
 	margin-bottom : 1em;
-	
-	
+
+
 }
 
 .news > h1{
 	width: -moz-max-content;    /* Firefox/Gecko */
 	width: -webkit-max-content;
 	border-bottom: 1px solid black;
-	
+
 }
 
 
@@ -558,7 +558,7 @@ footer .column {
 }
 
 .partenaires_block > div{
-	margin: 1em;	
+	margin: 1em;
 }
 
 .title_partenaire{
@@ -655,7 +655,7 @@ footer .column {
    	cursor: pointer !important;
    	width : 40%;
    }
-   
+
    .contact-submit:hover {
    	background-color: #8A8A8A !important;
    	transition: 0.4s;
@@ -681,7 +681,7 @@ footer .column {
 }
 
 .conteneur{
-    margin-left:100px; 
+    margin-left:100px;
     margin-right:600px;
 }
 
@@ -689,7 +689,7 @@ footer .column {
     border-bottom-style: solid;
     border-bottom-color: #868e96;
     border-bottom-width: 2px;
-    text-align:center; 
+    text-align:center;
     margin-bottom:40px;
 }
 
@@ -708,7 +708,7 @@ footer .column {
 
 .bordure-gauche{
     border-left-style: solid;
-    border-color: #3B4451; 
+    border-color: #3B4451;
     border-width: 6px;
     padding-left:1%;
     background-color: #D7DADB;
@@ -718,7 +718,7 @@ footer .column {
 .bordure-droite-bas{
     border-right-style: solid;
     border-bottom-style: solid;
-    border-color: #374F65; 
+    border-color: #374F65;
     border-right-width: 6px;
     border-bottom-width: 2px;
     background-color: #D7DADB;

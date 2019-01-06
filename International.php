@@ -3,21 +3,21 @@
 <head>
 	<title>Accueil</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/knacss-unminified.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" type="text/javascript" href="script.js">
+  	<link rel="stylesheet" type="text/javascript" href="assets/scripts/script.js">
 </head>
 <body>
 
 	<?php
 		require('menu_footer.php');
 	?>
-	
-	
-		<img src="photo/international.jpg" style='float:right; margin-top:100px; margin-right:150px; width:350px; height:350px;'>
+
+
+		<img src="assets/img/international.jpg" style='float:right; margin-top:100px; margin-right:150px; width:350px; height:350px;'>
 		<div style='margin-left:100px; margin-right:600px;'>
 			<h1 style='text-align:center; margin-bottom:25px;'>International</h1>
 			<h4 style='border-bottom: 2px solid #868e96; margin-top:35px; margin-bottom:15px;'>Mobilité Internationale</h4>
@@ -30,6 +30,6 @@
 			</br>
 			<p style='color:#868e96; display:inline;'>Mail: </p><p style='display:inline;'>helene.solomiac@univ-tlse3.fr</p>
 		</div>
-	
+
 </body>
 </html>
