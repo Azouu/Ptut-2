@@ -14,7 +14,7 @@
       <li class="menu-element" ><a href="contact.php">Contact</a></li>
 
       <li class="menu-element--dropbtn" >
-        <a href="alumni.php">Alumni</a>
+        <a href="#">Alumni</a>
         <div class="dropdown-content">
           <a href="portraits.php">Portraits</a>
           <a href="devenir_alumni.php">Devenir Alumni</a>
@@ -22,7 +22,7 @@
       </li>
 
       <li class="menu-element--dropbtn">
-        <a href="entreprises.php">Entreprises</a>
+        <a href="#">Entreprises</a>
         <div class="dropdown-content">
           <a href="partenaires.php">Partenaires</a>
           <a href="alternance.php">Alternance</a>
@@ -31,7 +31,7 @@
       </li>
 
       <li class="menu-element--dropbtn">
-        <a href="vie_etudiante.php">Vie étudiante</a>
+        <a href="#">Vie étudiante</a>
         <div class="dropdown-content">
           <a href="campus.php">Campus</a>
           <a href="associations.php">Associations étudiantes</a>
@@ -41,7 +41,7 @@
       </li>
 
       <li class="menu-element--dropbtn">
-        <a href="formation.php">Formation</a>
+        <a href="#">Formation</a>
         <div class="dropdown-content">
           <a href="programme.php">Programme</a>
           <a href="inscription.php">Inscription</a>

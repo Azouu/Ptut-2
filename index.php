@@ -21,18 +21,18 @@
 	<div class="slideshow-container">
 
 		<div class="slides fade">
-		  <img src="" class="slides-img">
+		  <img src="assets/img/banniere_nuages2" class="slides-img">
 		  <div class="slides-text">Le Master 2 professionnel et recherche Management International du Transport Aérien et du Tourisme (MITAT) est une spécialité du domaine du Droit Économie Gestion mention Management des Systèmes d'Information. Intégralement enseignée en langue anglaise, cette formation de niveau BAC+5 (niveau I du RNCP) est unique en France par sa stratégie d'ouverture internationale et double formation, à la fois en Tourisme et en Transport Aérien.</div>
 		</div>
 
 		<div class="slides fade">
-		  <img src="" class="slides-img">
+		  <img src="assets/img/banniere_nuages2" class="slides-img">
 		  <div class="slides-text">Lorem Ipsum</div>
 		</div>
 
 		<div class="slides fade">
-		  <img src="" class="slides-img">
-		  <div class="slides-text">lorem Ipsum</div>
+		  <img src="assets/img/banniere_nuages2" class="slides-img">
+		  <div class="slides-text">Lorem Ipsum</div>
 		</div>
 
 		<a class="slides-previous" onclick="plusSlides(-1)">&#10094;</a>
@@ -94,9 +94,9 @@
 	<!-- ------------- ----->
 
 	<div class="hero-img">
-		<p class="hero-img-text center"> Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum quodam sensu amandi quam cogitatione quantum illa res utilitatis esset habitura. Quod quidem quale sit, etiam in bestiis quibusdam animadverti potest, quae ex se natos ita amant ad quoddam tempus et ab eis ita amantur ut facile earum sensus appareat. Quod in homine multo est evidentius, primum ex ea caritate quae est inter natos et parentes, quae dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod probitatis et virtutis perspicere videamur. </p>
+		<p class="hero-img-text center"> Le Master 2 professionnel et recherche Management International du Transport Aérien et du Tourisme (MITAT) est une spécialité du domaine du Droit Économie Gestion mention Management des Systèmes d'Information. Intégralement enseignée en langue anglaise, cette formation de niveau BAC+5 (niveau I du RNCP) est unique en France par sa stratégie d'ouverture internationale et double formation, à la fois en Tourisme et en Transport Aérien. </p>
 
-		<a href="#"><button class="hero-img-button"><span>Découvrez la formation</span></button></a>
+		<a href="programme.php"><button class="hero-img-button"><span>Découvrez la formation</span></button></a>
 	</div>
 
 	<!-- ------------- ----->
