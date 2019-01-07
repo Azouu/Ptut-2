@@ -27,7 +27,7 @@ if(isset($_POST['email'])) {
     $email_from = $_SESSION['pseudo'];
     $enterprise_location = $_POST['enterprise_location'];
     $enterprise_name = $_POST['enterprise_name'];
-    $enteprise_contact = $_POST['email'];
+    $enterprise_contact = $_POST['email'];
     $stage_sujet= $_POST['object'];
     $stage_description = $_POST['description'];
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -47,7 +47,7 @@ if(isset($_POST['email'])) {
 
 
     $headers = 'From: '.$email_from."\r\n".
-    'Reply-To: '.$auteur . "\r\n" .
+    'Reply-To: '. $email_from . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 
@@ -55,8 +55,7 @@ if(isset($_POST['email'])) {
 
     // Ajout de l'offre à la base de données
     $reqInsert = $link->prepare("insert into offre(`nom_entreprise`, `lieu`, `contact`, `sujet`, `description`, `pseudo`) VALUES (:nom_entreprise, :lieu, :contact, :sujet, :description, :pseudo)");
-            $reqInsert->execute(array('numLicence' => $licence,
-                'nom_entreprise' => $_POST['enterprise_name'],
+            $reqInsert->execute(array('nom_entreprise' => $_POST['enterprise_name'],
                 'lieu' => $_POST['enterprise_location'],
                 'contact' => $_POST['email'],
                 'sujet' => $_POST['object'],
