@@ -940,3 +940,18 @@ footer .column {
 .lien-espace:hover {
 	text-decoration: none;
 }
+
+/* #####################################
+				PAGE OFFRES
+   ##################################### */
+   
+.stage{
+	margin-left:1em;
+}
+
+.offre{
+	margin-left: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #e1e4e8;
+}
