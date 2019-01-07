@@ -788,3 +788,155 @@ footer .column {
 	margin:1em;
 }
 >>>>>>> b0fc6ca2b5606277f7bef5433bcf8c61d4330695
+
+
+/* #####################################
+				PAGE DE CONNEXION
+   ##################################### */
+
+	 .connexion-form {
+	 	display : block;
+	 }
+
+	 .connexion-container {
+		padding : 4em;
+	 	margin: auto;
+	 	width: 20%;
+	 	margin-top : 7em;
+	 	padding: 10px;
+	 }
+
+	 .login, .mdp {
+	 	font-family: 'Roboto', Helvetica;
+	 	width: 100%;
+	 	margin: 0;
+	     	padding: 12px 20px;
+	    	box-sizing: border-box;
+	 }
+
+	 .connexion-form-btn {
+							 border : none !important;
+	 	font-family: 'Roboto', Helvetica !important;
+	 	font-size: 1em !important;
+	   background-color: #4CAF50 !important;
+	   border: solid 2px #4CAF50 !important;
+	   border-radius: 3px !important;
+	   color: white !important;
+	   padding: 1em 1.5em;
+	   text-decoration: none;
+	   display : inline-block;
+	   margin: auto;
+	   cursor: pointer;
+	 }
+
+	 .connexion-form-btn:hover {
+	 	transition: 0.6s !important;
+	 	background-color: white !important;
+	 	color: #4CAF50 !important;
+	 }
+
+	 .erreur-connexion {
+	 	color : #ed2525;
+	 	font-size: 0.9em;
+	 	 text-align: center;
+	 }
+
+.connexion-container img {
+		display: block;
+		margin: auto;
+}
+
+.connexion-container button a{
+	display: : inline-block;
+	text-decoration:  none;
+
+}
+
+
+/* #####################################
+				PAGE ESPACE CONNEXION
+   ##################################### */
+
+.espace-container {
+	margin-top: 7em;
+}
+
+.cards-container {
+	width : 60%;
+	margin : auto;
+	display: block;
+}
+
+.espace-container .column {
+		margin : 0 7em;
+	   float: left;
+	   width: 25%;
+	   padding: 0 7px;
+	 }
+
+	 /* Remove extra left and right margins, due to padding in columns */
+	 .row {margin: 0 -5px; align-items: center;}
+
+	 /* Clear floats after the columns */
+.espace-container 	 .row:after {
+	   content: "";
+	   display: table;
+	   clear: both;
+	 }
+
+	 /* Style the counter cards */
+.espace-container 	 .card {
+
+	   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	   padding: 16px;
+	   text-align: center;
+	   background-color: #f1f1f1;
+		 height : 30em;
+	 }
+
+.espace-container 	 .card:hover {
+	background-color : #8A8A8A;
+	transition: 0.7s;
+}
+.espace-container a {
+	text-decoration: none;
+}
+
+.espace-container a:hover {
+	text-decoration: none;
+	color : #D7DADB;
+}
+	 /* Responsive columns - one column layout (vertical) on small screens */
+	 @media screen and (max-width: 600px) {
+	 .espace-container   .column {
+	     width: 100%;
+	     display: block;
+	     margin-bottom: 20px;
+	   }
+	 }
+
+.disconnect {
+	margin-left: 2em;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.disconnect:hover {
+	text-decoration: none;
+}
+
+.vertical-menu {
+	width : 20em;
+	display: block;
+	margin-top: 7em;
+}
+
+.lien-espace {
+	margin-left: 2em;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.lien-espace:hover {
+	text-decoration: none;
+}

@@ -72,7 +72,7 @@
 
 			<p class="contact-title">Contactez-nous</p>
 			<p>Vous pouvez nous contacter en utilisant le formulaire ci-dessous : </p>
-			<form action="submit_mail.php">
+			<form action="" method="post">
 
 				<div class="contact-form">
 					<label for="fname">Prénom</label>
