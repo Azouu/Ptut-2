@@ -25,42 +25,112 @@
             <div></div>
             <form action="" method="post" name="DevenirALUMNI" class="col-2">
 
-                <section class="autogrid has-gutter ">
-                    <p class="champ marge">Name <input class="droite" type="text" name="Nom">  </p>
-                    <p class="champ marge">Surname <input class="droite" type="text" name="Prenom"> </p>
+                 <section class="autogrid has-gutter ">
+                     
+                     <div class="txtcenter"> 
+                         <p class="centre">Name </p> 
+                     </div> 
+                     <input class="" type="text" name="Nom">
+                     
+                     <div class="txtcenter"> 
+                         <p class="centre">Surname </p>
+                     </div>
+                    <input class="" type="text" name="Prenom"> 
+                     
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge"> Date of birth <input class="droite" type="date" name="Date_naissance"> </p>
-                    <p class="champ marge"> Current e-mail address <input class="droite" type="email" name="Adresse_email" ></p>
+                <section class="autogrid has-gutter">
+                    
+                    <div class="txtcenter">
+                        <p class="centre"> Date of birth </p> 
+                    </div> 
+                    <input class="" type="text" name="Date_naissance"> 
+                   
+                    <div class="txtcenter"> 
+                        <p class="centre"> Current e-mail address  </p> 
+                    </div>
+                    <input class="" type="text" name="Adresse_email" >
+
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">Graduating MITAT year <input class="droite" name="Année_MITAT" type="number"></p>
-                    <p class="champ marge">Past diploma(s) <input class="droite" name="Dernier_diplôme" type="text"></p>
+                <section class="autogrid has-gutter">
+                    
+                    <div class="txtcenter"> 
+                        <p class="centre">Graduating MITAT year  </p> 
+                    </div> 
+                    
+                    <div class="" >
+                        <input class="" name="Année_MITAT" type="text"> 
+                    </div> 
+                    
+                    <div class="txtcenter"> 
+                        <p class="centre">Past diploma(s) </p> 
+                    </div> 
+                    
+                    <div class="" >
+                        <input class="" name="Dernier_diplôme" type="text" >
+                    </div>
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">Past internship <input class="droite" name="Dernier_stage" type="text"></p>
+                <section class="autogrid has-gutter">
+                    <div class="txtcenter">
+                        <p class="centre">Past internship  </p> 
+                    </div> 
+                    <div class="" >
+                        <input class="" name="Dernier_stage" type="text">
+                    </div>
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">Past job <input class="droite" name="Poste_précédent" type="text"></p>
-                    <p class="champ marge">Current job <input class="droite" name="Poste_actuel" type="text"></p>
+                <section class="autogrid has-gutter">
+                    <div class="txtcenter">
+                        <p class="centre">Past job </p> 
+                    </div> 
+                    <div class="">
+                        <input class="petit" name="Poste_précédent" type="text">
+                    </div>
+                    <div class="txtcenter">
+                        <p class="centre">Current job </p> 
+                    </div> 
+                    <div class="">
+                        <input class="petit" name="Poste_actuel" type="text">
+                    </div>
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">Phone number <input class="droite" name="Numéro_téléphone" type="tel"></p>
-                    <p class="champ marge">Mobile phone number <input class="droite" name="Numéro_téléphone_portable" type="tel"></p>
+                <section class="autogrid has-gutter">
+                    <div class="txtcenter">
+                        <p class="centre">Phone number </p>
+                    </div> 
+                    <div class="">
+                        <input class="" name="Numéro_téléphone" type="text">
+                    </div>
+                    <div class="txtcenter">
+                        <p class="centre">Mobile phone number </p> 
+                    </div> 
+                    <div class="">
+                        <input class="" name="Numéro_téléphone_portable" type="text">
+                    </div>
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">Current adress<input class="droite" name="Adresse" type="text"></p>
+                <section class="autogrid has-gutter">
+                    
+                    <div class="txtcenter">
+                        <p class="centre">Current adress</p> 
+                    </div> 
+                    
+                    <div class="">
+                        <input class="" name="Adresse" type="text">
+                    </div>
                 </section>
 
-                <section class="grid-2 has-gutter">
-                    <p class="champ marge">LinkedIn link<input class="droite" name="Profil_LinkedIn" type="text"></p>
+                <section class="autogrid has-gutter">
+                    <div class="txtcenter">
+                        <p class="centre">LinkedIn link</p> 
+                    </div> 
+                    <div class="">
+                        <input class="" name="Profil_LinkedIn" type="text">
+                    </div>
                 </section>
+
 
                 <div class="txtcenter rubrique large">
                     <label for="switch" class="champ">Would you accept to be an intermediary between your company and MITAT students?</label>
@@ -78,7 +148,7 @@
                         <img src="/captcha?image" alt="" class="captcha" />
                         <a href="/captcha?audio" title="fichier mp3, 10 Ko" onclick="javascript:window.open(this.href, 'Mot &agrave; saisir', ''); return false;" class="lien_interne">&eacute;coutez le mot &agrave; saisir</a>
                     </span>
-                    <input type="submit" name="Valider">
+                    <input class="Bouton" type="submit" name="Valider">
                 </section>
 
             </form>
