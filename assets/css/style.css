@@ -688,8 +688,8 @@ footer .column {
 }
 
 .conteneur{
-    margin-left:100px;
-    margin-right:600px;
+    margin-left:10%;
+    margin-right:37%;
 }
 
 .sous_titre{
@@ -745,32 +745,23 @@ footer .column {
 /* #####################################
 				DEVENIR ALUMNI
    ##################################### */
+.centre{
+    position: relative;
+    top:25%;
+    float:left;
+}
+
 .champ{
-    margin-bottom:2%;
-    background-color: #374F65;
     color:white;
 }
 
-.droite{
-    float:right;
-    height: 100%;
-    width:50%;
+.Bouton{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top:10%;
+    left:10%;
 }
-
-.large{
-    text-align: center;
-    width:100%;
-}
-
-.marge{
-    padding-left:2%;
-}
-
-.captcha{
-    float:right;
-    margin-top:1%;
-}
-
 =======
 .taxe{
  top : 1em;
